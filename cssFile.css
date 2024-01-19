@@ -1,0 +1,120 @@
+body 
+{
+    font-family: 'Arial', sans-serif;
+    background-color: #281260; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 
+{
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+section 
+{
+    padding: 100px;
+    overflow: auto;
+    padding-left: 31%;
+    padding-top: 0px;
+}
+
+.main 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 64%;
+    text-align: center;
+    background-color: #4F25BB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main1 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: #281260;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.watch 
+{
+    box-shadow: 0 0 10px 2px #000000;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.main2 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+    text-align: center;
+    padding: 0;
+}
+
+.main3 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn_sect 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+    text-align: center;
+}
+
+button 
+{
+    padding: 12px 24px;
+    margin: 20px;
+    background-color: #ADD8E6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover 
+{
+    background-color: #4682B4;
+}
+
+.lap_div 
+{
+    text-align: center;
+    width: 64%;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #FF6347;
+}
